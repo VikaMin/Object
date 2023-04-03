@@ -17,7 +17,7 @@ class MoneyTransferTest {
     @BeforeEach
     void before() {
         Configuration.holdBrowserOpen = true;
-        Configuration.startMaximized = true;
+        //Configuration.startMaximized = true;
         open("http://localhost:9999");
     }
 
